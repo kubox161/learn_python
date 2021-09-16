@@ -1,3 +1,5 @@
+# https://contest.yandex.ru/contest/28331/problems/
+
 # Работаем с файлом IMDbnames_f.csv
 # О каком количестве людей содержатся данные в этом файле (сколько в нем строк)?
 rows = open('IMDbnames_f.csv', encoding="utf8").read().split("\n")
