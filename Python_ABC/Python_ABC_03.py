@@ -2,7 +2,7 @@
 
 # Работаем с файлом IMDbnames_f.csv
 # О каком количестве людей содержатся данные в этом файле (сколько в нем строк)?
-rows = open('IMDbnames_f.csv', encoding="utf8").read().split("\n")
+rows = open('../IMDbnames_f.csv', encoding="utf8").read().split("\n")
 print(*rows[0:50], sep="\n")
 print(len(rows))
 

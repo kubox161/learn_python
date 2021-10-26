@@ -10,8 +10,8 @@ fieldnames = ['imdb_name_id', 'name',
 'spouses', 'divorces',
 'spouses_with_children',
 'children']
-df = pd.read_csv('IMDbnames_f.csv',
-sep = '#',
-names = fieldnames)
+df = pd.read_csv('../IMDbnames_f.csv',
+                 sep = '#',
+                 names = fieldnames)
 
 print(df) # печатаем результат

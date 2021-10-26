@@ -19,5 +19,5 @@
 import os
 import img2pdf
 import glob
-with open("name.pdf","wb") as f:
+with open("name.pdf", "wb") as f:
     f.write(img2pdf.convert(glob.glob("C:/Users/user/PycharmProjects/learn_python/*.jpg")))
